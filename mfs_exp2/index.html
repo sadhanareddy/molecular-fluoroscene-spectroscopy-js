@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Experiment2</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="simulation.css">
+  
+  <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+<h4>Principle of Absorption, Florescence and Phosphorescence</h4>
+<div class="container1"> <!-- Start container -->
+	<div id="first_div">  
+		<div id="buttons" >
+
+		    <!-- Trigger/Open The Modal -->
+		    <img id="myBtn" src="images/manual_button.png" onmouseover="this.src='images/hover_manual.png';" onmouseout="this.src='images/manual_button.png'" >  <br/>
+		    	<!-- The Modal -->
+		   		<div id="myModal" class="modal">
+
+				  <!-- Modal content -->
+				  	<div class="modal-content">
+				    	<div class="modal-header">
+				      		<span class="close">&times</span>
+				      		<h2>Manual</h2>
+					    </div>
+					    <div class="modal-body">
+						    <p>Some text in the Modal Body</p>
+						    <p>Some other text...</p>
+				    	</div>
+				    	
+				  	</div>
+
+				</div>
+
+            <!-- Trigger the modal with a button -->
+			<img id="myBtn-1" src="images/data_button.png" onmousemove="this.src='images/hover_data.png';" onmouseout="this.src='images/data_button.png'">	<!-- The Modal -->
+				<div id="myModal-1" class="modal-1">
+
+				  <!-- Modal content -->
+				 	<div class="modal-content-1">
+				    	
+				    <!-- <p>Some text in the Modal..</p> -->
+				    	<img id="graph1" src="images/graph_1.png">
+				    <!-- <img src="images/graph_2.png"> -->
+				    <br/>
+				    	<img id="red_button"  src="images/red_button.png" onclick="changeImage('images/red_button.png')">
+						<img id="green_button" src="images/green_button.png" onclick="changeImage('images/green_button.png')">
+						<img class="close-1" src="images/close_button.png">
+				  	</div>
+				
+
+				</div>
+		</div>  
+		
+		
+
+
+		<div id="shelf"> 
+			<img src="images/shelf.png">
+			<img id="flask" src="images/flask.png"  onclick="moveFlask()">
+			<img id="pipette" src="images/pipette.png">
+			<img id="cuvette" src="images/cuvette.png">
+		</div>	
+	</div>	 <!-- end of first div -->
+
+	<br/>
+	<div id="second_div">
+		<img id="table" src="images/spectro_table.png">
+		<button id="reset" onclick="window.location.href.reload();"> Reset Experiment</button>
+	</div>
+		
+</div> <!-- End of container -->
+
+<script type="text/javascript" src="simulation.js"></script>
+</body>
+</html>

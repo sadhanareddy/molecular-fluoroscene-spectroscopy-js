@@ -1,0 +1,201 @@
+body{
+	
+	width: 980px; 
+	margin: 0 auto; 
+	overflow: hidden;
+
+}
+h4 {
+	text-align: center;
+
+}
+
+#buttons {
+
+	float:left;
+}
+#shelf {
+	float: right;
+	position: relative;
+	/*z-index: 0;*/
+}
+
+img:hover {
+	background-color: red;
+}
+
+#table {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#reset {
+	margin:auto;
+    display:block;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    -webkit-animation-name: fadeIn; /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    bottom: 0;
+    background-color: #fefefe;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.modal-body {padding: 2px 16px;
+}
+
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+    from {bottom: -300px; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {bottom: -300px; opacity: 0}
+    to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+}
+
+/* The Modal (background) */
+.modal-1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /*background-color: rgb(0,0,0); /* Fallback color */*/
+    /*background-color: rgba(0,0,0,0.4); /* Black w/ opacity */*/
+}
+
+/* Modal Content */
+.modal-content-1 {
+    background-color:  #666666;
+    margin: auto;
+    padding: 18px;
+    /*border: 1px solid #888;*/
+    width: 38%;
+    /*height : 60%;*/
+}
+
+/* The Close Button */
+.close-1 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-1:hover,
+{
+ 
+}
+.close-1:focus 
+{
+    float: right;
+    cursor: pointer;
+    color: red;
+}
+
+
+#red_button,
+#green_button {
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+}
+
+
+#graph1 {
+	width : 450px;
+	height: 350px;
+}
+
+#flask {
+	position: absolute;
+	z-index: 4;
+	right: 290px;
+	top:15px;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+#pipette {
+	position: absolute;
+	z-index: 4;
+	right: 170px;
+	top:5px;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+#cuvette {
+	
+	position: absolute;
+	z-index: 4;
+	right: 60px;
+	top:65px;
+	width: 20px;
+	height: 40px;
+   visibility: hidden;
+   cursor: pointer;
+}

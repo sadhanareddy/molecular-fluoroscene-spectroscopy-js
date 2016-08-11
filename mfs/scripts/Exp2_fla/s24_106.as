@@ -1,0 +1,19 @@
+package Exp2_fla
+{
+   import flash.display.MovieClip;
+   
+   public dynamic class s24_106 extends MovieClip
+   {
+       
+      public function s24_106()
+      {
+         super();
+         addFrameScript(0,this.frame1);
+      }
+      
+      function frame1() : *
+      {
+         stop();
+      }
+   }
+}

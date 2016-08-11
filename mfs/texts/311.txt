@@ -1,0 +1,91 @@
+1. Prepare a 4.1 × 10¯  M fluorescein solution in spectroscopy grade ethanol from a 8.2 × 10¯  M fluorescein stock 
+--- RECORDSEPARATOR ---
+solution. 
+--- RECORDSEPARATOR ---
+2. Click on the volumetric flask containing the fluorescein solution to take it onto the instrument table. 
+--- RECORDSEPARATOR ---
+3. Take an all-side-transparent quartz cuvette (path length, 1 cm ×1 cm) by clicking on it.
+--- RECORDSEPARATOR ---
+4. Click on the 5 mL‑capacity pipette to collect 3 mL of the experimental solution which will be transferred into the 
+--- RECORDSEPARATOR ---
+quartz cuvette. In real operation, one has to set the volume to 3 mL in the  pipette and an appropriate tip (in terms 
+--- RECORDSEPARATOR ---
+of size and solvent-safety) should be attached prior to dipping it in the solution.
+--- RECORDSEPARATOR ---
+5. Click on the pipette to draw the solution into it.
+--- RECORDSEPARATOR ---
+6. Click on the pipette to take it out of the volumetric flask.
+--- RECORDSEPARATOR ---
+7. Click on the pipette again to transfer the solution into the cuvette.
+--- RECORDSEPARATOR ---
+8. Click on the pop-up “Start Fluorescence Measurement” to run the Excitation and Emission Spectral Scans of 
+--- RECORDSEPARATOR ---
+the sample on the spectrofluorimeter.
+--- RECORDSEPARATOR ---
+9. Turn on the spectrofluorimeter by clicking on the power button. In real operation, it takes approx. 30 min for 
+--- RECORDSEPARATOR ---
+initialization of the instrument.
+--- RECORDSEPARATOR ---
+10. Click on the lid of sample chamber of the spectrofluorimeter to open it for placing the sample in the instrument.
+--- RECORDSEPARATOR ---
+11. Click on the cuvette to place it in the sample holder of the chamber.
+--- RECORDSEPARATOR ---
+12. Close the lid of the sample chamber by clicking on the lid.
+--- RECORDSEPARATOR ---
+13. To run the Excitation Spectral Scan, open the measurement set-up screen by clicking on the fluorescence 
+--- RECORDSEPARATOR ---
+measurement icon on the computer monitor. 
+--- RECORDSEPARATOR ---
+14. Select the Excitation Scan Mode on the screen.
+--- RECORDSEPARATOR ---
+15. On the screen, enter the Emission wavelength: 515 nm, Excitation Start Wavelength: 300 nm and Excitation 
+--- RECORDSEPARATOR ---
+End wavelength: 600 nm. One chooses the Excitation Slit (nm) and Emission Slit (nm) values (here 2.5 nm/2.5 
+--- RECORDSEPARATOR ---
+nm) and the scan speed value (here “medium”) also.
+--- RECORDSEPARATOR ---
+16. Click on the 'OK' button on the set-up screen to start the wavelength scan for excitation spectrum. 
+--- RECORDSEPARATOR ---
+17. Click on 'Close' button when spectral scan is complete. In real operation, the scan data are stored in the 
+--- RECORDSEPARATOR ---
+computer. The instrument stores data and therefore asks for the Sample File name. One enters a file name to 
+--- RECORDSEPARATOR ---
+save the data. 
+--- RECORDSEPARATOR ---
+18. To run the Emission Spectral Scan of the sample, open the instrument set-up screen by clicking on the 
+--- RECORDSEPARATOR ---
+fluorescence measurement icon on the computer monitor. 
+--- RECORDSEPARATOR ---
+19. Select the Emission Scan Mode on the screen.
+--- RECORDSEPARATOR ---
+20. On the screen, enter the Excitation wavelength: 425 nm, Emission Start Wavelength: 435 nm and Emission 
+--- RECORDSEPARATOR ---
+End wavelength: 700 nm. Emission Start Wavelength value should be larger than the excitation wavelength. Often 
+--- RECORDSEPARATOR ---
+the maximum absorbance wavelength is chosen as the excitation wavelength. The Emission End Wavelength 
+--- RECORDSEPARATOR ---
+value depends on the sample, instrument, etc. One chooses the Excitation Slit (nm) and Emission Slit (nm) values 
+--- RECORDSEPARATOR ---
+(here 2.5 nm/2.5 nm) and the scan speed value (here “medium”) also.
+--- RECORDSEPARATOR ---
+21. Click on the 'OK' button on the set-up screen to run the wavelength scan for emission spectrum. One has to 
+--- RECORDSEPARATOR ---
+be sure that the solvent blank does not fluoresce in the wavelength range of interest. 
+--- RECORDSEPARATOR ---
+22. Click on 'Close' button when spectral scan is complete. In real operation, the scan data are stored in the 
+--- RECORDSEPARATOR ---
+computer. The instrument stores data and therefore asks for the Sample File name. One enters a file name to 
+--- RECORDSEPARATOR ---
+save the data. 
+--- RECORDSEPARATOR ---
+23. To take the cuvette out of the sample chamber, first click on the sample chamber lid to open it and then on the 
+--- RECORDSEPARATOR ---
+cuvette. 
+--- RECORDSEPARATOR ---
+24. Close the lid of the sample chamber by clicking on the lid.
+--- RECORDSEPARATOR ---
+25. Click on Reset button to start over the measurements.
+--- RECORDSEPARATOR ---
+26. Collect all data by clicking on the Data tab.
+--- RECORDSEPARATOR ---
+27. Find out the maximum excitation and emission wavelengths and intensities.
